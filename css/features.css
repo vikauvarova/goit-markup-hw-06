@@ -1,0 +1,24 @@
+.features-items{
+    display: flex;
+    gap: 24px;
+}
+.features-item-icon{
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 100%;
+    height: 112px;
+    background: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.features-item{
+    width: calc((100% - 24px*3)/4);
+}
+
+
+.feature-title{
+    margin-bottom: 8px;
+}
