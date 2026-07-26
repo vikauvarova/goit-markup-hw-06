@@ -1,3 +1,3 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-Homework 5, Block HTML + CSS
+Homework 6, Block HTML + CSS
