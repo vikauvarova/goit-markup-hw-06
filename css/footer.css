@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (min-width: 1148px) {
+@media screen and (min-width: 1158px) {
   .footer .container {
     padding: 0px;
   }
@@ -91,7 +91,7 @@
   margin-bottom: 72px;
 }
 
-@media screen and (min-width: 1148px) {
+@media screen and (min-width: 1158px) {
   .social-wrapper {
     margin-bottom: 0;
   }
@@ -197,6 +197,7 @@
 }
 @media screen and (min-width: 768px) {
   .footer-btn {
+    margin: 0;
   }
 }
 .footer-btn:hover,
