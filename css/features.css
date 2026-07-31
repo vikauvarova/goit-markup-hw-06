@@ -16,7 +16,7 @@
   display: none;
 }
 
-@media screen and (min-width: 115px) {
+@media screen and (min-width: 1158px) {
   .features-item-icon {
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -50,7 +50,7 @@
   color: #2e2f42;
   margin-bottom: 8px;
 }
-@media screen and (min-width: 758px) {
+@media screen and (min-width: 768px) {
   .feature-title {
     text-align: left;
   }
@@ -70,8 +70,8 @@
   margin-right: 24px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1148px) {
   .feature-text {
-    font-weight: 500;
+    font-weight: 400;
   }
 }

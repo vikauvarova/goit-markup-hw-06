@@ -54,10 +54,8 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1148px) {
   .footer .container {
-    display: flex;
-    flex-wrap: wrap;
     padding: 0px;
   }
 }
@@ -91,6 +89,12 @@
 .social-wrapper {
   text-align: center;
   margin-bottom: 72px;
+}
+
+@media screen and (min-width: 1148px) {
+  .social-wrapper {
+    margin-bottom: 0;
+  }
 }
 
 .social-list {
