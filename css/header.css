@@ -152,7 +152,8 @@
 @media screen and (min-width: 1158px) {
   .contact-item {
     font-size: inherit;
-    letter-spacing: inherit;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
   }
 }
 

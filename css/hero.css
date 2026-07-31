@@ -5,10 +5,7 @@
       rgba(46, 47, 66, 0.7) 0%,
       rgba(46, 47, 66, 0.7) 100%
     ),
-    image-set(
-      url("../images/hero-bg.jpg@1x.jpg") 1x,
-      url("../images/hero-bg.jpg@2x.jpg") 2x
-    );
+    url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,31 +31,28 @@
     max-width: 1440px;
   }
 }
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("hero-bg@2x.jpg");
+  }
+}
 
 .main-heading {
-  margin-bottom: 72px;
+  max-width: 216px;
+  margin: 0 auto 72px auto;
 }
 
 @media screen and (min-width: 768px) {
   .main-heading {
     padding: 0 0 36px 0;
+    max-width: 496px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .main-heading {
     padding: 0 0 48px 0;
-  }
-}
-
-.hero-content {
-  max-width: 216px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-content {
-    max-width: 496px;
   }
 }
 
