@@ -19,7 +19,7 @@
     width: calc((100% - 24px) / 2);
   }
 }
-@media screen and (min-width: 1458px) {
+@media screen and (min-width: 1158px) {
   .portfolio-item {
     width: calc((100% - 24px * 2) / 3);
   }
@@ -39,7 +39,7 @@
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
-@media screen and (min-width: 1458px) {
+@media screen and (min-width: 1158px) {
   .portfolio-text {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;

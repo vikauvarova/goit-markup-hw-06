@@ -3,7 +3,7 @@
   color: #f4f4fd;
   padding: 96px 0;
 }
-@media screen and (min-width: 1458px) {
+@media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: 1458px) {
+@media screen and (min-width: 1158px) {
   .left {
     margin-right: 120px;
   }
@@ -121,7 +121,7 @@
 .right {
 }
 
-@media screen and (min-width: 1458px) {
+@media screen and (min-width: 1158px) {
   .right {
     margin-left: auto;
   }
